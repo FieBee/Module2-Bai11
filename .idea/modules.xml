@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Bai 11.iml" filepath="$PROJECT_DIR$/.idea/Bai 11.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyGenericStack/MyGenericStack.iml" filepath="$PROJECT_DIR$/MyGenericStack/MyGenericStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TH - Queue/TH - Queue.iml" filepath="$PROJECT_DIR$/TH - Queue/TH - Queue.iml" />
     </modules>
   </component>
 </project>
