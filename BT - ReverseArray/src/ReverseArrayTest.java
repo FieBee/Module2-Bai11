@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Stack;
 public class ReverseArrayTest {
+
+
     public static void main(String[] args) {
 
         ArrayList<Integer> arr1 = new ArrayList<>();
@@ -28,23 +30,20 @@ public class ReverseArrayTest {
         arr2.add("9");
         System.out.println(arr2);
 
-        
 
 
 
     }
 
-    public static void addElementToStack(ArrayList arr, Stack stack){
+    public static void addElementToStack(ArrayList<Integer> arr, Stack<Integer> stack){
         int i = 0;
         while (!arr.isEmpty()){
             stack.push(arr.get(i));
             arr.remove(i);
-
         }
-
     }
 
-    public static void addElementToArray(Stack stack, ArrayList arr){
+    public static void addElementToArray(Stack<Integer> stack, ArrayList<Integer> arr){
         while (!stack.isEmpty()){
             arr.add(stack.peek());
             stack.pop();
