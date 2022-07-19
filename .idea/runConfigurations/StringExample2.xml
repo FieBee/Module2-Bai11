@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StringExample2" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="StringExample2" />
+    <module name="BT - asdasdasd" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

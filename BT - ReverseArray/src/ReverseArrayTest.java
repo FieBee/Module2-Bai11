@@ -23,15 +23,12 @@ public class ReverseArrayTest {
         System.out.println(arr1);
 
 
-        ArrayList<String> arr2 = new ArrayList<>();
-        arr2.add("1");
-        arr2.add("Quả");
-        arr2.add("Chuối");
-        arr2.add("9");
-        System.out.println(arr2);
-
-
-
+//        ArrayList<String> arr2 = new ArrayList<>();
+//        arr2.add("1");
+//        arr2.add("Quả");
+//        arr2.add("Chuối");
+//        arr2.add("9");
+//        System.out.println(arr2);
 
     }
 
