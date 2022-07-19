@@ -26,10 +26,13 @@ public class StringExample2 {
         Map<String, Integer> treeMap = new TreeMap<>();
         for (int i = 0; i < arr.size(); i++) {
             if (treeMap.containsKey(arr.get(i))) {
-                treeMap.put(arr.get(i),++value);
+                treeMap.put(arr.get(i),value++ +1);
                 continue;
+            }else {
+                value = 1;
+                treeMap.put(arr.get(i),value);
             }
-            treeMap.put(arr.get(i),value);
+
         }
 
         System.out.println(treeMap);
